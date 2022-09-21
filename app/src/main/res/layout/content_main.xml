@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingTop="70dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/quiz1"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/quiz1_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/perbaikanquiz1_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/perbaikanquiz1"
+                    android:visibility="gone"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/perbaikanquiz1_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/quiz2"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/quiz2_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/perbaikanquiz2_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/perbaikanquiz2"
+                    android:visibility="gone"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/perbaikanquiz2_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ets"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ets_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/perbaikanets_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/perbaikan_ets"
+                    android:visibility="gone"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/perbaikanets_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/EAS"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eas_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+                    />
+
+                <TextView xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/perbaikaneas_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/perbaikan_eas"
+                    android:visibility="gone"
+                    tools:showIn="@layout/content_main" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/perbaikaneas_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rata_rata" />
+
+                <TextView
+                    android:id="@+id/result_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="hitungNilaiRataRata"
+                android:text="@string/hitung" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

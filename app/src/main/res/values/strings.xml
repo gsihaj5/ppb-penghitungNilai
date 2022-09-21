@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PenghitungNilai</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="quiz1">Quiz1</string>
+    <string name="perbaikanquiz1">PerbaikanQuiz1</string>
+    <string name="perbaikanquiz2">PerbaikanQuiz2</string>
+    <string name="quiz2">Quiz2</string>
+    <string name="ets">ETS</string>
+    <string name="perbaikan_ets">Perbaikan ETS</string>
+    <string name="uas">UAS</string>
+    <string name="perbaikan_uas">Perbaikan UAS</string>
+    <string name="EAS">EAS</string>
+    <string name="perbaikan_eas">Perbaikan EAS</string>
+    <string name="hitung">Hitung</string>
+    <string name="rata_rata">Rata-Rata :</string>
+</resources>
